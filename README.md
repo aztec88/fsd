@@ -7,4 +7,4 @@ A responsive template theme. Done using the gulp-sass and webdev-sever.
 npm install
 
 gulp serve
-# keenmagazine
+# FSD
