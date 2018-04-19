@@ -1,0 +1,21 @@
+
+//COLORS
+$font_color: #7f8c8c;
+$font_second_color: #777777;
+$main_color: #76c7c0;
+$active_color: #62a29e;
+$second_color: #e2534b;
+$hover_color: #e8645a;
+
+.no_padding{
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+//PARTIALS
+@import "partials/home";
+@import "partials/header";
+
