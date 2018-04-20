@@ -24,7 +24,7 @@
         e.stopPropagation();
     });
     $(".mob_btn").on("click", function () {
-        $(".mob_nav").toggle();
+        $(".mob_nav").toggleClass('mob_active_menu');
     });
 
     //SLIDER

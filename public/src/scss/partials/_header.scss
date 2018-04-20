@@ -1,5 +1,6 @@
 .top_menu{
     background: $main_color;
+    z-index: 10;
 }
 .nav{
     height: 80px;
@@ -23,7 +24,7 @@
     .menu_right{
         height: 80px;
         position: relative;
-        z-index: 2;
+        z-index: 10;
         @media(max-width: 768px){
             padding: 0!important;
         }
@@ -215,7 +216,7 @@
     border-radius: 5px;
     padding: 5px 5px 0 5px;
     top: 80px;
-    z-index: 10;
+    z-index: 12;
     background: $second_color;
     display: none;
     position: absolute;
@@ -223,7 +224,7 @@
     transform: translate(0, 0);
     width: 300px;
     @media(max-width: 768px){
-        right: -10;
+        right: -10px;
     }
     &:before{
         content: '';
@@ -237,6 +238,11 @@
         border-bottom: 10px solid $second_color;
         clear: both;
     }
+    
+}
+.mob_active_menu{
+    display: inline-block!important;
+    z-index: 12;
 }
 .mob_menu{
     padding: 0;
