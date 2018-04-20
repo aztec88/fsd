@@ -45,11 +45,23 @@
 								<?php get_search_form(); ?>
 							</li>
 						</ul>
-						
+						<i class="mob_btn fa fa-bars" aria-hidden="true"></i>
+						<div class="mob_nav">
+							<?php 
+								wp_nav_menu(array(
+									'theme_location' => 'primary',
+									'container' => false,
+									'menu_class' => 'mob_menu',
+									'walker' => new Walker_Nav_primary()
+									)
+								);
+							?>			  	
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		
 		
 		
 		

@@ -23,6 +23,9 @@
         $(".search_form").toggle();
         e.stopPropagation();
     });
+    $(".mob_btn").on("click", function () {
+        $(".mob_nav").toggle();
+    });
 
     //SLIDER
     var swiper = new Swiper('.swiper-container', {

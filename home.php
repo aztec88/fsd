@@ -57,7 +57,7 @@
                 
             ?>
 
-            <div class="service_single col-xs-6 col-sm-3">
+            <div class="service_single col-xs-6 col-sm-6 col-md-3">
                 <div class="service_single_content">
                     
                     <?php 
